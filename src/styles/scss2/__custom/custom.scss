@@ -1,0 +1,85 @@
+li.active > a
+{
+    color:#2f55d4 !important
+}
+
+a {
+ &:hover {
+  cursor:pointer;
+ } 
+}
+
+// =====================================
+// Experimental Start - Do not remove 
+// =====================================
+
+.btn-xl{
+    padding: 15px 30px !important;
+    font-size: 24px !important;
+    border-radius: 9px !important;
+}
+
+.text-gray{
+    color: #262f3ca3 !important;
+}
+
+.waitListCardTitle{
+    margin-top: -1.5rem;
+    color: white;
+    font-size: 1.4rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.waitListCardTitleBG{
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+    border-radius: 6px 6px 0px 0px;
+}
+
+
+// Todo: use styled components instead
+.featureList li{
+    margin-bottom: 10px;
+}
+
+
+// Telephone input override
+.react-tel-input .form-control{
+    font-size: 16px;
+    width: 100% !important;
+    height: 45px !important;
+}
+
+// Hide arrows from number input
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.fadeOut{
+     opacity:0;
+    //  width:0;
+    //  height:0;
+     transition: width 0.5s 0.5s, height 0.5s 0.5s, opacity 0.5s;
+}
+
+.fadeIn{
+     opacity:1;
+    //  width:100px;
+    //  height:100px;
+     transition: width 0.5s, height 0.5s, opacity 0.5s 0.5s;
+}
+
+
+
+// CRISP CHAT - Remove if not using 
+.crisp-client .cc-kv6t .cc-1xry .cc-ge4v .cc-qqzz .cc-5b24 .cc-19cg{
+    display: none !important;
+}
