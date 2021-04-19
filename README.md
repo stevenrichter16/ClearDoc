@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project coded mainly by Steven Richter. Styling credit goes to Tim Muster.
+This project was coded mainly by Steven Richter (React, Flask). Styling credit goes to Tim Muster.
 
 ## Available Scripts
 
