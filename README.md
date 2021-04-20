@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# ClearDoc, an AI-powered web application to simplify medical terminology
 
 This project was coded mainly by Steven Richter (React, Flask). Styling credit goes to Tim Muster.
 
