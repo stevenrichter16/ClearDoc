@@ -1,7 +1,14 @@
 # Getting Started with Create React App
 
 This project was coded mainly by Steven Richter (React, Flask). Styling credit goes to Tim Muster.
-The motivation for this application came from recognizing the dense and confusing nature of clinical notes and medical terminology. My NextGrid hackathon team and I brainstormed and developed this application for the purpose of simplifying medical terminology with the use of GPT-3, a deep learning model developed by OpenAI. Over the course of 12 hours I created the front-end and back-end from scratch, only having moderate knowledge of React.js, and minimal knowledge of Flask.  
+
+The motivation for this application came from recognizing the dense and confusing nature of clinical notes and medical terminology. My NextGrid hackathon team and I brainstormed and developed this application for the purpose of simplifying medical terminology with the use of GPT-3, a deep learning model developed by OpenAI. 
+
+Over the course of 12 hours I created the front-end and back-end from scratch, only having moderate knowledge of React.js, and minimal knowledge of Flask. Through much trial and error, I accomplished setting up a REST API with Flask.
+
+The main issue I encountered in creating the API centered around the POST method. Previously I had used Flask to process and send data to a front-end, but I had never developed an API to send user-entered data from the front-end to the back-end, then back to the front-end. The reason for this functionality was due to the fact that I needed to grab user input from the front-end, send it to the Python server, process it through the GPT-3 API, then send that data back to the front-end to be displayed. 
+
+In the end this project gave me experience in full-stack web development, and sharpened my communication skills. 
 
 ## Available Scripts
 
