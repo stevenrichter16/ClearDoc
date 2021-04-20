@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
 This project was coded mainly by Steven Richter (React, Flask). Styling credit goes to Tim Muster.
+The motivation for this application came from recognizing the dense and confusing nature of clinical notes and medical terminology. My NextGrid hackathon team and I brainstormed and developed this application for the purpose of simplifying medical terminology with the use of GPT-3, a deep learning model developed by OpenAI. Over the course of 12 hours I created the front-end and back-end from scratch, only having moderate knowledge of React.js, and minimal knowledge of Flask.  
 
 ## Available Scripts
 
