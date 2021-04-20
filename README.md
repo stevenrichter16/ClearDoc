@@ -10,6 +10,8 @@ The main issue I encountered in creating the API centered around the POST method
 
 In the end this project gave me experience in full-stack web development, and sharpened my communication skills. 
 
+A url for this web application will be available soon. Here is the slide deck for the presentation my team and I gave during the hackathon: https://docs.google.com/presentation/d/1lIQbtUXYoazawjZ-VRQ_8Shp3e8G37gkbUy-jFxrqlI/edit?usp=sharing
+
 ## Available Scripts
 
 In the project directory, you can run:
