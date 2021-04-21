@@ -16,7 +16,9 @@ CORS(app)
 
 openai.api_key = ""
 
-# so far I've just been testing to make sure POST works
+# POST method which sends the user input through OpenAI's 
+# GPT-3 API. Then the API response gets cleaned and sent
+# back to the front-end.
 @app.route('/', methods=['POST'])
 def get_query():
     data = request.get_json()
@@ -41,7 +43,8 @@ def get_query():
     print(str_response)
     return str_response
 
-# sometimes the response would include duplicates
+# Cleans the GPT-3 API response to remove duplicate
+# outputs.
 def format_response(response):
     simple_index = [m.start() for m in re.finditer('Simple', response)]
     if len(simple_index) > 1:
