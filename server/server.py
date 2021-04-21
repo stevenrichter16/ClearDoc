@@ -17,8 +17,8 @@ CORS(app)
 openai.api_key = ""
 
 # POST method which sends the user input through OpenAI's 
-# GPT-3 API. Then the API response gets cleaned and sent
-# back to the front-end.
+# GPT-3 API. Then the API response gets cleaned by
+# by format_response() and sent to the front-end.
 @app.route('/', methods=['POST'])
 def get_query():
     data = request.get_json()
