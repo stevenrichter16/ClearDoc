@@ -4,7 +4,7 @@ This project was coded mainly by myself (Steven Richter) using React.js and Flas
 
 The motivation for this application came from recognizing the dense and confusing nature of clinical notes and medical terminology. My NextGrid hackathon team brainstormed and developed this application for the purpose of simplifying medical terminology with the use of GPT-3, a deep learning model developed by OpenAI. 
 
-Over the course of 12 hours I created the front-end and back-end from scratch, only having moderate knowledge of React.js, and minimal knowledge of Flask. Through much trial and error, I accomplished setting up a REST API with Flask.
+Over the course of 8 hours I created the front-end and back-end from scratch, only having moderate knowledge of React.js, and minimal knowledge of Flask. Through much trial and error, I accomplished setting up a REST API with Flask.
 
 The main issue I encountered in creating the API centered around the POST method. Previously I had used Flask to process and send data from the server to the front-end, but I had never developed an API to send user input from the front-end to the back-end, then back to the front-end. The need for this functionality was due to the fact I needed to grab user input from the front-end, send it to the Python server, process it through the GPT-3 API, then send that data back to the front-end to be displayed. 
 
