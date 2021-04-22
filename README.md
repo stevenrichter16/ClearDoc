@@ -1,8 +1,8 @@
-# ClearDoc, an AI-powered web application to simplify medical terminology
+# ClearDoc, an AI-powered doctor's assistant for simplifying medical terminology
 
 This project was coded mainly by myself (Steven Richter) using React.js and Flask. Styling credit goes to Tim Muster, and GPT-3 prompt engineering credit goes to Alan Majer and Matthew Donaruma.
 
-The motivation for this application came from recognizing the dense and confusing nature of clinical notes and medical terminology. My NextGrid hackathon team brainstormed and developed this application for the purpose of simplifying medical terminology with the use of GPT-3, a deep learning model developed by OpenAI. 
+The motivation for this application came from recognizing the dense and confusing nature of clinical notes and medical terminology With the use of GPT-3, a deep learning model developed by OpenAI, my OpenAI/NextGrid hackathon team surmized the concept of an application that translates medical lingo into simple English. This application/assistant would provide patients with a better overall experience.  
 
 Over the course of 8 hours I created the front-end and back-end from scratch, only having moderate knowledge of React.js, and minimal knowledge of Flask. Through much trial and error, I accomplished setting up a REST API with Flask.
 
