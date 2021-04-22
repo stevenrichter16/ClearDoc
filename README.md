@@ -1,16 +1,24 @@
 # ClearDoc, an AI-powered doctor's assistant for simplifying medical terminology
 
-This project was coded mainly by myself (Steven Richter) using React.js and Flask. Styling credit goes to Tim Muster, and GPT-3 prompt engineering credit goes to Alan Majer and Matthew Donaruma.
+**Credits**
+Front-end (React.js) / Back-end (Flask): Steven Richter
+Styling (CSS/SCSS): Tim Muster
+GPT-3 Prompt Engineering: Alan Majer and Matthew Donaruma
 
-The motivation for this application came from recognizing the dense and confusing nature of clinical notes and medical terminology With the use of GPT-3, a deep learning model developed by OpenAI, my OpenAI/NextGrid hackathon team surmized the concept of an application that translates medical lingo into simple English. This application/assistant would provide patients with a better overall experience.  
+**What/Why?**
+The motivation for this application came from recognizing the dense and confusing nature of clinical notes and medical terminology With the use of GPT-3, a deep learning model developed by OpenAI, my OpenAI/NextGrid hackathon team surmized the concept of an application that translates medical lingo into simple English. This application/assistant provides patients with a better overall experience.  
 
+**Development Process**
 Over the course of 8 hours I created the front-end and back-end from scratch, only having moderate knowledge of React.js, and minimal knowledge of Flask. Through much trial and error, I accomplished setting up a REST API with Flask.
 
 The main issue I encountered in creating the API centered around the POST method. Previously I had used Flask to process and send data from the server to the front-end, but I had never developed an API to send user input from the front-end to the back-end, then back to the front-end. The need for this functionality was due to the fact I needed to grab user input from the front-end, send it to the Python server, process it through the GPT-3 API, then send that data back to the front-end to be displayed. 
 
-In the end this project gave me experience in full-stack web development, and sharpened my communication skills. 
+**Conclusion**
+In the end this project gave me experience in full-stack web development, and sharpened my communication skills. Since this application is a demo, it is not developed to its fullest potential. In the future this application could be used by doctors and nurses across English speaking countries, and additional language options could be added. We think this AI assistant signifies the nascence of AI-powered health services, of which will revolutionize the entire field of medicine.  
 
-A url for this web application will be available soon. Here is the slide deck for the presentation my team gave during the hackathon: https://docs.google.com/presentation/d/1lIQbtUXYoazawjZ-VRQ_8Shp3e8G37gkbUy-jFxrqlI/edit?usp=sharing
+A url for this web application will be available soon. Here is the slide deck for the presentation we gave during the hackathon: https://docs.google.com/presentation/d/1lIQbtUXYoazawjZ-VRQ_8Shp3e8G37gkbUy-jFxrqlI/edit?usp=sharing
+
+Disclaimer: If you run the project from the source files it will not work since that would require me to reveal my GPT-3 API key. I am working to fix that, and a screenshot of the application can be found in the slide deck above.
 
 ## Available Scripts
 
