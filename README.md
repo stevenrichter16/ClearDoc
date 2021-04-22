@@ -23,7 +23,7 @@ Overall this project gave me experience in full-stack web development, and sharp
 
 A url for this web application will be available soon. Here is the slide deck for the presentation we gave during the hackathon: https://docs.google.com/presentation/d/1lIQbtUXYoazawjZ-VRQ_8Shp3e8G37gkbUy-jFxrqlI/edit?usp=sharing
 
-Disclaimer: If you run the project from the source files it will not work since that would require me to reveal my GPT-3 API key. I am working to fix that, and a screenshot of the application can be found in the slide deck above.
+Disclaimer: If you run the project from the source files it will not work since it requires me to reveal my GPT-3 API key. I am working to fix that, and a screenshot of the application can be found in the slide deck above.
 
 ## Available Scripts
 
