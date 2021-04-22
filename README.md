@@ -1,5 +1,7 @@
 # ClearDoc, an AI-powered doctor's assistant for simplifying medical terminology
 
+## Demo: https://youtu.be/U7bLF-driH0?t=298 at timestamp 4:58
+
 ### Credits
 Front-end (React.js) / Back-end (Flask): **Steven Richter** | stevenrichter16@gmail.com
 
@@ -23,7 +25,7 @@ Overall this project gave me experience in full-stack web development, and sharp
 
 A url for this web application will be available soon. Here is the slide deck for the presentation we gave during the hackathon: https://docs.google.com/presentation/d/1lIQbtUXYoazawjZ-VRQ_8Shp3e8G37gkbUy-jFxrqlI/edit?usp=sharing
 
-Disclaimer: If you run the project from the source files it will not work since it requires me to reveal my GPT-3 API key. I am working to fix that, and a screenshot of the application can be found in the slide deck above.
+Disclaimer: If you run the project from the source files it will not work since it requires me to reveal my GPT-3 API key. I am working to fix that, a demo of this app is located at the top of this document.
 
 ## Available Scripts
 
