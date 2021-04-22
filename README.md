@@ -15,7 +15,7 @@ The motivation for this application came from recognizing the dense and confusin
 
 Over the course of 8 hours I created the front-end and back-end from scratch, only having moderate knowledge of React.js, and minimal knowledge of Flask. Through much trial and error I accomplished setting up a REST API with Flask.
 
-The main issue I encountered in creating the API centered around the POST method. Previously I had used Flask to set up a GET endpoint, but I had never developed an API a POST endpoint wherein the client could send user data to the server to have it processed, then back to the client. The need for this functionality came from the need to grab user input from the client, send it to the Python server, process it through the GPT-3 API, then send that data back to the client to be displayed. The majority of the development time spent consisted of fixing errors with the POST method. Once I succeeded in writing the POST method I realized how simple it was in hindsight.
+The main issue I encountered in creating the API centered around the POST method. Previously I used Flask to set up a GET endpoint, but I had never developed an API a POST endpoint wherein the client could send user data to the server to have it processed, then back to the client. The need for this functionality came from the need to grab user input from the client, send it to the Python server, process it through the GPT-3 API, then send that data back to the client to be displayed. The majority of the development time spent consisted of fixing errors with the POST method. Once I succeeded in writing the POST method I realized how simple it was in hindsight.
 
 ### Conclusion
 
