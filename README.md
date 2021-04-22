@@ -6,6 +6,7 @@ Front-end (React.js) / Back-end (Flask): **Steven Richter** | stevenrichter16@gm
 Styling (CSS/SCSS): **Tim Uster** | timuster@live.com
 
 GPT-3 Prompt Engineering: **Alan Majer** | alanmajer@hotmail.com
+                          
                           **Matthew Donaruma** | matt@mdonaruma.com
 
 ### What/Why?
