@@ -8,7 +8,7 @@ Styling (CSS/SCSS): **Tim Uster** | timuster@live.com
 GPT-3 Prompt Engineering: **Alan Majer** | alanmajer@hotmail.com ||
                           **Matthew Donaruma** | matt@mdonaruma.com
 
-### What?/Why?
+### What/Why
 The motivation for this application came from recognizing the dense and confusing nature of clinical notes and medical terminology With the use of GPT-3, a deep learning model developed by OpenAI, my OpenAI/NextGrid hackathon team surmized the concept of an application that translates medical lingo into simple English. This application/assistant provides patients with a better overall experience.  
 
 ### Development Process
